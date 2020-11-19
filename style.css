@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body, ul {
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  width: 1170px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.categorie:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+header {
+  background-image: url(photolibrededroit/photoduheader.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 200px 0px;
+  margin-bottom: 10px;
+  margin-top: 146px;
+}
+
+nav {
+  background-color: white;
+  padding: 15px 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav .dpflex {
+  align-items: center;
+}
+
+.description {
+  position: relative;
+}
+
+.product {
+  text-align: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.dpflex {
+  justify-content: space-between;
+  display: flex;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  color: black;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
+p {
+  font-family: 'Lato';
+}
+
+.inline li {
+  display: inline-block;
+  margin-right: 20px
+}
+
+.categorie article {
+  display: inline-block;
+}
+
+.categorie {
+  text-align: center;
+  width: 50%;
+}
+
+.categoriephoto {
+  width: 100%;
+}
+
+.nouveauter {
+  background-color: #DCDCDC;
+  padding: 20px 0px;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: black;
+}
+
+.btn {
+  background-color: black;
+  padding: 4px 46px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn:hover {
+  color: red;
+}
+
+.costumehomme {
+  height: 300px;
+}
+
+.femmeensatin {
+  height: 300px;
+}
+
+.femmeensoi {
+  height: 300px;
+}
+
+.bandeaupromo {
+  background-image: url(photolibrededroit/imagebandeaupromo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+.inlinecategorie li {
+  padding: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.barrederecherche {
+  padding: 10px;
+}
+
+.barre-decoration {
+  border-radius: 10px;
+}
+
+.fa-undo-alt {
+  font-size: 40px;
+}
+
+.fa-facebook-f {
+  font-size: 40px;
+  color: blue;
+}
+
+.fa-twitter {
+  font-size: 40px;
+  color: #00acee
+}
+
+.fa-instagram {
+  font-size: 40px;
+}
+
+article .fa-heart {
+  color: red;
+  font-size: 19px;
+  position: absolute;
+  right: 13px;
+  top: 10px;
+
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 25px;
+}
+
+.btn-newsletter {
+  background-color: black;
+  padding: 2px 34px;
+  border-radius: 10px;
+  color: white;
+}
+
+.btn-newsletter:hover {
+  color: red;
+  transition: 2s;
+}
+
+.back-to-top {
+  bottom: 20px;
+  font-size: 1.5rem;
+  position: fixed;
+  right: 40px;
+}
+
+.service h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.newsletter {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.newsletter p {
+  color: black;
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+
+.ici {
+  background-color: #DCDCDC;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #DCDCDC;
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.partie1, .partie2, .partie3 {
+  width: 33%;
+}
+
+.reseaux, .about, .liens-utiles {
+  list-style: none;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: space-evenly;
+}
